@@ -1,0 +1,91 @@
+.course-features-main {
+  #quant {
+    background: linear-gradient(
+      176deg,
+      rgb(90, 0, 123) 0%,
+      rgb(52, 0, 110) 93%
+    );
+  }
+  #varc {
+    background: linear-gradient(
+      176deg,
+      rgb(249, 74, 117) 0%,
+      rgb(242, 33, 131) 93%
+    );
+  }
+  #lrdi {
+    background: linear-gradient(
+      176deg,
+      rgb(0, 179, 254) 0%,
+      rgb(0, 121, 254) 93%
+    );
+  }
+  #practice {
+    background: linear-gradient(
+      176deg,
+      rgb(228, 67, 163) 0%,
+      rgb(178, 34, 192) 93%
+    );
+  }
+  #mocks {
+    background: linear-gradient(
+      176deg,
+      rgb(82, 0, 206) 0%,
+      rgb(69, 1, 166) 93%
+    );
+  }
+  #timings {
+    background: linear-gradient(
+      176deg,
+      rgb(253, 104, 106) 0%,
+      rgb(246, 63, 120) 93%
+    );
+  }
+
+   .heading {
+    .img {
+      width: 28px;
+      img {
+        width: 100%;
+      }
+    }
+    label {
+      font-size: 16px;
+      color: #fff;
+      margin-left: 8px;
+      font-weight: 600;
+    }
+  }
+  .course-f-card {
+    padding: 19px 19px 22px;
+    border-radius: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    .content {
+      p {
+        margin-bottom: 2px !important;
+        font-size: 14px;
+      }
+    }
+  }
+  .features-list {
+    font-size: 14px;
+    color: #fff;
+    list-style: none;
+    padding: 0;
+    li{
+      display: flex;
+      margin-bottom: 8px;
+    }
+    .img {
+      width: 20px;
+      min-width: 20px;
+      margin-right: 12px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,857 @@
+/* @import"https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap"; */
+/* @charset "UTF-8"; */
+.fonto {
+    font-family: "Permanent Marker", cursive !important;  
+}
+
+div .text-element  {
+        font-family: "Permanent Marker", cursive !important;  
+
+}
+
+div .number {
+    font-size: 2vw !important;
+    font-weight: 800 !important;
+}
+
+div .text h4 {
+    font-family: "Paytone One", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 0 .5vw;
+    font-size: 1.5vw;
+    color: #000;
+}
+
+h4 .nav ul li {
+    font-family: "Outfit", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 400 !important;
+  font-style: normal;
+  font-size: .97vw !important;
+  line-height: 1.2vw !important;
+}
+
+/* .footer-button-0 button span {
+    font-family: "Paytone One", sans-serif !important;
+    background: #c40000 !important;
+    padding: .6vw 0 !important;
+    border-radius: 1.3vw !important;
+    font-size: 1vw !important;
+    color: #f9f4db !important;
+    line-height: 100% !important;
+    border: .2vw solid #f9f4db !important;
+    min-width: 9.5vw !important;
+    height: auto !important;
+} */
+@media (min-width: 1200px) {
+    body {
+        font-size: 1vw
+    }
+
+    .cat-journey .container,
+    .cat-banner .container {
+        padding: 0 .85vw !important;
+        width: 87vw !important;
+        margin: 0 auto;
+        max-width: 87vw !important
+    }
+
+    .row>* {
+        padding-left: .84vw !important;
+        padding-right: .84vw !important
+    }
+
+    .row {
+        margin: 0 -.9vw !important
+    }
+}
+
+.navigation {
+    padding: .3rem 2rem;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    background: #000;
+    top: 0
+}
+
+.navigation .loginbutton {
+    color: #000;
+    font-weight: 600;
+    background: #55cd6c !important;
+    line-height: 30px;
+    font-size: 11px;
+    padding: 0 12px;
+    height: 25px
+}
+
+.navigation .loginbutton i {
+    margin-right: .7vw
+}
+
+.navigation .fb_color {
+    background-color: #0054c2 !important;
+    color: #fff !important;
+    padding: 0 12px 0 7px !important
+}
+
+.navigation .fb_color img {
+    width: 10px;
+    margin-right: 5px
+}
+
+.navigation .book_color {
+    background-color: #3c3174 !important;
+    color: #fff !important;
+    padding: 0 12px 0 7px !important
+}
+
+.navigation .book_color img {
+    width: 12px;
+    margin-right: 5px
+}
+
+.navigation h4 {
+    color: #fff;
+    margin: 8px 15px 0 0;
+    text-transform: uppercase;
+    font-size: 12px
+}
+
+@media (max-width: 600px) {
+    .navigation h4 {
+        color: #fff;
+        font-size: 14px;
+        margin: 11px 6px 0 0;
+        text-transform: uppercase
+    }
+}
+
+@media (max-width: 575.98px) {
+    .post-cls {
+        position: relative;
+        top: -95px
+    }
+
+    .navigation h4 {
+        color: #fff;
+        font-size: 8px;
+        margin: 7px 6px 0 0;
+        text-transform: uppercase
+    }
+}
+
+.cat-journey {
+    position: relative;
+    background: #000000;
+    padding: 1vw 0 9.5vw
+}
+
+.cat-journey .cat-journey-header-text {
+    width: max-content;
+    margin: 0 auto 7vw;
+    overflow: hidden
+}
+
+.cat-journey .cat-journey-header-text h1 {
+    font-family: paytone_oneregular;
+    font-size: 2.9vw;
+    color: #fff;
+    line-height: 100%;
+    margin: 0 0 .2vw
+}
+
+.cat-journey .cat-journey-header-text h1 span {
+    color: #ffd15b
+}
+
+.cat-journey .cat-journey-header-text h2 {
+    font-family: paytone_oneregular;
+    font-size: 2.9vw;
+    color: #fff;
+    line-height: 100%;
+    margin: 0 0 .2vw
+}
+
+.cat-journey .cat-journey-header-text h2 span {
+    color: #ffd15b
+}
+
+.cat-journey .cat-journey-header-text h6 {
+    font-family: "Permanent Marker", cursive !important;
+    font-weight: 400;
+    font-style: normal;
+    color: #f9f4db;
+    margin: 0;
+    float: right;
+    font-size: 1.4vw;
+    position: relative;
+    right: 4vw
+}
+
+.cat-journey .cat-journey-wrapper {
+    position: relative
+}
+
+.cat-journey .cat-journey-wrapper .cat-journey-bg img {
+    width: 100%
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper {
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    width: 100%
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper {
+    width: 100%
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .person {
+    position: relative;
+    left: .5vw;
+    top: -5vw;
+    width: max-content
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .person h4 {
+    font-size: 1.8vw;
+    color: #ffd15b;
+    margin: 0;
+    font-family: 'Gilroy-Bold', sans-serif  !important;
+    font-weight: 600;
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .person .img {
+    margin: 1vw 0 .8vw;
+    max-width: 0 auto
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .person .img img {
+    width: 9.7vw;
+    height: 9.7vw;
+    object-fit: cover;
+    border-radius: 100%;
+    border: .7vw solid #ffd15b
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .person .img .userDropIcon1 {
+    width: 9.7vw;
+    height: 9.7vw;
+    object-fit: cover;
+    border-radius: 100%;
+    border: .7vw solid #ffd15b;
+    background-position: center !important;
+    background-size: cover !important;
+    margin-left: 3vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .person h5 {
+    font-size: 1.4vw;
+    color: #fff;
+    margin: 0
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .cat-jounrey-single-item {
+    position: relative
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .cat-jounrey-single-item .cat-journey-single-card {
+    background: #f9f4db;
+    border-radius: 1.8vw;
+    padding: .2vw;
+    width: max-content;
+    position: relative;
+    cursor: pointer
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .cat-jounrey-single-item .cjs-in {
+    border-radius: 1.8vw;
+    border: .35vw solid #000000;
+    padding: 2.3vw 1.2vw 1vw;
+    position: relative;
+    transition: all .4s ease-in-out
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .cat-jounrey-single-item .cjs-in .number {
+    width: 3.9vw;
+    height: 3.9vw;
+    border-radius: 100%;
+    border: .4vw solid #000000;
+    text-align: center;
+    font-family: Gilroy-Bold \261e;
+    /* font-size: 2vw; */
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -2vw;
+    left: 1.2vw;
+    background: #f9f4db;
+    align-items: center
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .cat-jounrey-single-item .cjs-in h4 {
+    font-family: paytone_oneregular;
+    font-weight: 400;
+    margin: 0 0 .5vw;
+    font-size: 1.5vw;
+    color: #000
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .cat-jounrey-single-item .cjs-in ul {
+    display: grid
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .cat-jounrey-single-item .cjs-in ul li {
+    font-size: .97vw;
+    line-height: 1.2vw;
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
+    white-space: nowrap
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .cat-jounrey-single-item .cjs-in .img-element {
+    position: absolute;
+    top: -3vw;
+    right: 3.6vw;
+    width: 3.4vw;
+    right: 0
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .cat-jounrey-single-item .cjs-in .img-element img {
+    width: 100%
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .cat-jounrey-single-item .cjs-in .text-element {
+    font-family: permanent_markerregular;
+    color: #f9f4db;
+    font-size: .96vw;
+    position: absolute
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .cat-jounrey-single-item .cjs-in .footer-button {
+    position: absolute;
+    bottom: -1.5vw;
+    right: -2.5vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .cat-jounrey-single-item .cjs-in .footer-button button {
+    font-family: "Paytone One", sans-serif !important;
+    background: #000000;
+    padding: .6vw 0;
+    border-radius: 1.3vw;
+    font-size: 1vw;
+    color: #f9f4db;
+    line-height: 100%;
+    border: .2vw solid #f9f4db;
+    min-width: 9.5vw;
+    height: auto;
+    font-weight: 400;
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .cat-jounrey-single-item .cjs-in .footer-button-0 {
+    position: absolute;
+    bottom: -1.5vw;
+    right: -2.5vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .cat-jounrey-single-item .cjs-in .footer-button-0 button {
+    font-family: "Paytone One", sans-serif !important;
+    background: #c40000 !important;
+    padding: .6vw 0 !important;
+    border-radius: 1.3vw !important;
+    font-size: 1vw !important;
+    color: #f9f4db !important;
+    line-height: 100% !important;
+    border: .2vw solid #f9f4db !important;
+    min-width: 9.5vw !important;
+    height: auto !important;
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .cat-jounrey-single-item .cjs-in:hover {
+    transform: scale(1.05);
+    border: .35vw solid #ff9500;
+    animation: blink .7s infinite alternate
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .cat-jounrey-single-item .cjs-in:hover .footer-button button,
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .cat-jounrey-single-item .cjs-in:hover .footer-button-0 button {
+    background: #ff9500;
+    color: #000;
+    line-height: 100%
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position1 {
+    top: -3vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position1 .cjs-in {
+    width: 12.5vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position1 .cjs-in .hover-card .more-button {
+    display: none
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position1 .cjs-in .hover-card .more-button button {
+    font-family: paytone_oneregular !important;
+    font-size: .9vw;
+    padding: .7vw 0 .9vw;
+    border-radius: 2vw;
+    margin-bottom: .3vw;
+    font-weight: 400;
+    width: 100%;
+    background: #100d0e;
+    color: #f9f4db;
+    line-height: 100%;
+    border: .2vw solid #f9f4db;
+    min-width: 9.5vw;
+    height: auto
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position2 {
+    top: -2vw;
+    left: 1.4vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position2 .cjs-in {
+    width: 13.5vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position2 .cjs-in .img-element {
+    top: -2.5vw;
+    width: 3.4vw;
+    right: -3.5vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position2 .cjs-in .text-element {
+    top: -2.3vw;
+    right: 2vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position2 .cjs-in .footer-button {
+    position: absolute;
+    bottom: -1.3vw;
+    right: -5vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position2 .cjs-in .footer-button button {
+    min-width: 8.7vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position2 .cjs-in .footer-button-0 {
+    position: absolute;
+    bottom: -1.3vw;
+    right: -5vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position2 .cjs-in .footer-button-0 button {
+    min-width: 8.7vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position3 {
+    top: 1vw;
+    left: 4.6vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position3 .cjs-in {
+    width: 14vw;
+    padding: 2.3vw 1vw 1vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position3 .cjs-in .number {
+    left: 2vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position3 .cjs-in .img-element {
+    top: -2.5vw;
+    width: 3.7vw;
+    right: -4.2vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position3 .cjs-in .text-element {
+    top: -2.3vw;
+    right: 4vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position3 .cjs-in .text .cat-strategy-btns button {
+    font-family: "Paytone One", sans-serif !important;
+    font-weight: 400;
+    line-height: 100%;
+    color: #f9f4db;
+    background: #100d0e;
+    width: 100%;
+    height: auto
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position3 .cjs-in .text .cat-strategy-btns .btnbig {
+    font-size: 1.5vw;
+    padding: .7vw 0 .9vw;
+    border-radius: 1vw;
+    margin-bottom: .3vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position3 .cjs-in .text .cat-strategy-btns .d-flex button {
+    font-size: 1vw;
+    padding: 1vw 0;
+    border-radius: 1vw;
+    margin-left: .2vw;
+    min-width: inherit;
+    width: 100%
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position3 .cjs-in .text .cat-strategy-btns .d-flex button:first-child {
+    margin-left: 0
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position5 {
+    top: 6.5vw;
+    left: -1vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position5 .cjs-in {
+    width: 11vw;
+    padding: 2.3vw 2vw 1vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position5 .cjs-in .number {
+    left: 2vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position5 .cjs-in .img-element {
+    top: -3.7vw;
+    width: 2.6vw;
+    left: .4vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position5 .cjs-in .text-element {
+    top: -2.3vw;
+    left: 6.5vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position6 {
+    top: -.5vw;
+    left: -5vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position6 .cjs-in {
+    width: 12vw;
+    padding: 2.3vw 1.2vw 1vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position6 .cjs-in .number {
+    left: 2vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position6 .cjs-in .img-element {
+    top: -4vw;
+    width: 2.6vw;
+    right: -1.7vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position6 .cjs-in .text-element {
+    top: -2.3vw;
+    left: 6.5vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position7 {
+    top: 1vw;
+    left: -2.2vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position7 .cjs-in {
+    width: 12vw;
+    padding: 2.3vw 1.2vw 1vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position7 .cjs-in .number {
+    left: 2vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position7 .cjs-in .img-element {
+    top: -3.7vw;
+    width: 2.6vw;
+    right: -1vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position7 .cjs-in .text-element {
+    top: -2.3vw;
+    left: 6.5vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position8 {
+    top: 3.4vw;
+    left: .5vw;
+    z-index: 1
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position8 .cjs-in {
+    width: 15vw;
+    padding: 2.3vw 1.2vw 1vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position8 .cjs-in .number {
+    left: 2vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position8 .cjs-in .img-element {
+    top: 2vw;
+    width: 4vw;
+    right: -5.8vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position8 .cjs-in .text-element {
+    top: -2.3vw;
+    left: 6.5vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position8 .cjs-in h6 {
+    font-size: .9vw;
+    font-family: Outfit, sans-serif;
+    margin: 0;
+    font-weight: 600;
+    color: #000;
+    margin-top: .3vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position8 .cjs-in .position-text {
+    font-family: "Permanent Marker", cursive;
+    position: absolute;
+    bottom: 3.4vw;
+    left: -9.5vw;
+    color: #ffd15b;
+    font-size: 1.15vw;
+    line-height: 1.45vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position8 .cjs-in .footer-button {
+    position: initial;
+    margin-top: .5vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position8 .cjs-in .footer-button button {
+    font-family: "Paytone One", sans-serif !important;
+    font-size: .9vw;
+    padding: .7vw 0 .9vw;
+    border-radius: 2vw;
+    margin-bottom: .3vw;
+    font-weight: 400;
+    width: 100%
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position8 .cjs-in .footer-button-0 {
+    position: initial;
+    margin-top: .5vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position8 .cjs-in .footer-button-0 button {
+    font-family: paytone_oneregular !important;
+    font-size: .9vw;
+    padding: .7vw 0 .9vw;
+    border-radius: 2vw;
+    margin-bottom: .3vw;
+    font-weight: 400;
+    width: 100%
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position9 {
+    top: 3vw;
+    left: 4.2vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position9 .cjs-in {
+    width: 13vw;
+    padding: 2.3vw 1.2vw 1vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position9 .cjs-in .number {
+    left: 2vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position9 .cjs-in .img-element {
+    top: -1.5vw;
+    width: 2.5vw;
+    right: -3.3vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position9 .cjs-in .text-element {
+    top: -3.8vw;
+    left: 6.8vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position9 .cjs-in h6 {
+    font-size: .9vw;
+    font-family: Outfit, sans-serif;
+    margin: 0;
+    font-weight: 600;
+    color: #000;
+    margin-top: .5vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position9 .cjs-in .position-text {
+    font-family: permanent_markerregular;
+    position: absolute;
+    bottom: 3.5vw;
+    left: -10.5vw;
+    color: #ffd15b;
+    font-size: 1.2vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position9 .cjs-in .footer-button {
+    position: initial;
+    margin-top: .5vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position9 .cjs-in .footer-button button {
+    font-family: "Paytone One", sans-serif !important;
+    font-size: .9vw;
+    padding: .7vw 0 .9vw;
+    border-radius: 2vw;
+    margin-bottom: .3vw;
+    font-weight: 400;
+    width: 100%
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position9 .cjs-in .footer-button-0 {
+    position: initial;
+    margin-top: .5vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position9 .cjs-in .footer-button-0 button {
+    font-family: paytone_oneregular !important;
+    font-size: .9vw;
+    padding: .7vw 0 .9vw;
+    border-radius: 2vw;
+    margin-bottom: .3vw;
+    font-weight: 400;
+    width: 100%
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position10 {
+    top: 7.3vw;
+    left: -.5vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position10 .cjs-in {
+    width: 16vw;
+    padding: 2.3vw 1.2vw 1vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position10 .cjs-in .number {
+    left: 2vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position10 .cjs-in .img-element {
+    top: 6vw;
+    width: 3.5vw;
+    right: -1.2vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position10 .cjs-in .text-element {
+    top: -2.3vw;
+    left: 6.5vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position10 .cjs-in h6 {
+    font-size: .9vw;
+    font-family: Outfit, sans-serif;
+    margin: 0;
+    font-weight: 600;
+    color: #000;
+    margin-top: .5vw
+}
+
+.jorney-footer-text {
+    position: absolute;
+    bottom: -9vw;
+    left: 4.5vw;
+    color: #f9f4db;
+    font-size: 1.16vw;
+    line-height: 3.0vw;
+    text-align: center
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position11 {
+    top: 7.3vw;
+    left: -.5vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position11 .cjs-in {
+    width: 17vw;
+    padding: 1vw 1.2vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position11 .cjs-in h4 {
+    font-family: permanent_markerregular;
+    color: #000;
+    font-size: 1.3vw;
+    margin-bottom: 1vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position11 .cjs-in .journey-video img {
+    width: 100%
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position11 .cjs-in .footer-button {
+    bottom: -1.5vw;
+    right: -4vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position11 .cjs-in .footer-button button {
+    font-size: .9vw;
+    min-width: 11.5vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position11 .cjs-in .footer-button-0 {
+    bottom: -1.5vw;
+    right: -4vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position11 .cjs-in .footer-button-0 button {
+    font-size: .9vw;
+    min-width: 11.5vw
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position11 .cjs-in .arrow {
+    left: -6.5vw;
+    bottom: -3.8vw;
+    width: 7vw;
+    position: absolute
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position11 .cjs-in .arrow img {
+    width: 100%
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .journey-position11 .cjs-in .jorney-footer-text {
+    font-family: permanent_markerregular;
+    position: absolute;
+    bottom: -10vw;
+    left: 4.5vw;
+    color: #f9f4db;
+    font-size: 1.16vw;
+    line-height: 3.2vw;
+    text-align: center;
+    display: none
+}
+
+.cat-journey .cat-jorney-collages {
+    position: absolute;
+    bottom: 0
+}
+
+.cat-journey .cat-jorney-collages img {
+    width: 100%
+}
+
+.result-banner {
+    background-color: #000;
+    padding: 20px 0
+}
+
+.mobile-show {
+    display: none
+}
+

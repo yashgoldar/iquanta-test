@@ -1,0 +1,51 @@
+.cat-full-course-last-batch-2024 {
+  .heading {
+    label {
+      font-size: 26px;
+      font-weight: 600;
+      color: #ffc000;
+    }
+    p {
+      font-weight: 300;
+      font-size: 13px;
+      font-style: italic;
+      color: #ffffffde;
+      margin-bottom: 15px;
+    }
+  }
+  .course-validity {
+    color: #ffffffde;
+    .course-validity-points {
+      color: #ffffffde;
+
+      p {
+        margin-bottom: 3px !important;
+
+        font-size: 14px;
+      }
+    }
+  }
+  .expand-content {
+    height: 1px;
+    background-color: #ffffff84;
+    margin: 25px auto 0;
+    width: 75%;
+    position: relative;
+    .expand-i {
+      width: 29px;
+      height: 29px;
+      color: #000;
+      background: #fff;
+      text-align: center;
+      line-height: 29px;
+      margin: 0 auto;
+      display: block;
+      border-radius: 100%;
+      position: absolute;
+      bottom: -14px;
+      left: 0;
+      right: 0;
+      cursor: pointer;
+    }
+  }
+}

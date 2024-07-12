@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 10em;
+    height: 3em;
+}
+
+
+
+.cat-journey .cat-journey-header-text h6 {
+    font-family: "permanent_marker", cursive !important;
+
+}
+
+.jorney-footer-text {
+    font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.footer-button button {
+        font-family: "Paytone One", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+}
+
+.cat-journey .cat-journey-wrapper .cat-jounrey-wrapper .cat-jounrey-single-wrapper .cat-jounrey-single-item .cjs-in .footer-button button {
+    font-family: paytone_oneregular !important;
+    background: #000000;
+    padding: .6vw 0;
+    border-radius: 1.3vw;
+    font-size: 1vw;
+    color: #f9f4db;
+    line-height: 100%;
+    border: .2vw solid #f9f4db;
+    min-width: 9.5vw;
+    height: auto;
+}

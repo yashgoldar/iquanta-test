@@ -1,0 +1,53 @@
+<section class="course-features-main">
+  <div class="heading d-flex align-items-center mt-2 mb-3">
+    <div class="img">
+      <img src="https://media.iquanta.in/ui_images/new-home/notebook.png" alt="">
+    </div>
+    <div>
+      <label for="">Course Features</label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-4" *ngFor="let item of dataset">
+      <div class="course-f-card" [id]="item?.colorID">
+        <div class="heading">
+          <h2>{{item?.heading}}</h2>
+        </div>
+        <div class="content">
+          <p *ngFor="let child of item?.content">
+            {{
+            child?.text
+            }} </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <ul class="features-list">
+        <li>
+          <div class="img">
+            <img alt=""
+              src="https://s3-ap-south-1.amazonaws.com/iquantamedia/media/whatsapp_template_pic/feature_image/record.png">
+          </div>
+          <span>The Live sessions will also get recorded so one can watch as per their
+            timeline</span>
+        </li>
+        <li>
+          <div class="img"><img alt=""
+              src="https://s3-ap-south-1.amazonaws.com/iquantamedia/media/whatsapp_template_pic/feature_image/group-chat.png">
+          </div><span>Doubts Can be asked at any time during day or night, and it gets
+            resolved within 15 mins</span>
+        </li>
+        <li class="ng-star-inserted">
+          <div class="img"><img alt=""
+              src="https://s3-ap-south-1.amazonaws.com/iquantamedia/media/whatsapp_template_pic/feature_image/ying-yang_1.png">
+          </div><span>We teach any topic in 2 ways via our dual pedagogy, once via Live
+            Stream Conceptual session and next via Application Session, making sure a student is clear with concept as
+            well as they are able to apply them.</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</section>
